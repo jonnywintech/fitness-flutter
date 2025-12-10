@@ -9,6 +9,8 @@ class DT {
       s6 = 24.0,
       s8 = 32.0;
 
+  static const rCard = 20.0;
+
   static const bg = Color(0xFF2EEF9);
   static const text = Color(0xFF0FF1115);
   static const cardYellow = Color(0xFFFFC85D);
