@@ -11,11 +11,11 @@ class DT {
 
   static const rCard = 20.0;
 
-  static const bg = Color(0xFF2EEF9);
+  static const bg = Color(0xFFF2EEF9);
   static const bottomNavBg = Color(0xFF0F1115);
   static const text = Color(0xFF0F1115);
   static const cardYellow = Color(0xFFFFC85D);
   static const cardBlue = Color(0xFFbbD2FF);
-  static const cardGreen = Color(0xFFE7F8ED);
-  static const cardOrange = Color(0xFFFFEED6);
+  static const pillGreen = Color(0xFFE7F8ED);
+  static const pillOrgange = Color(0xFFFFEED6);
 }
