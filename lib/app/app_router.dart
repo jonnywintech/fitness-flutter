@@ -16,8 +16,9 @@ GoRouter buildRouter() {
               GoRoute(
                 path: '/home',
                 name: AppRoute.home.name,
-                pageBuilder: (context, state) =>
-                    const NoTransitionPage(child: Scaffold(body: Text('Home'))),
+                pageBuilder: (context, state) => const NoTransitionPage(
+                  child: Scaffold(body: Center(child: Text('Home'))),
+                ),
               ),
             ],
           ),
@@ -27,7 +28,7 @@ GoRouter buildRouter() {
                 path: '/session',
                 name: AppRoute.sessions.name,
                 pageBuilder: (context, state) => const NoTransitionPage(
-                  child: Scaffold(body: Text('Session')),
+                  child: Scaffold(body: Center(child: Text('Session'))),
                 ),
               ),
             ],
@@ -38,7 +39,7 @@ GoRouter buildRouter() {
                 path: '/profile',
                 name: AppRoute.profile.name,
                 pageBuilder: (context, state) => const NoTransitionPage(
-                  child: Scaffold(body: Text('Profile')),
+                  child: Scaffold(body: Center(child: Text('Profile'))),
                 ),
               ),
             ],
