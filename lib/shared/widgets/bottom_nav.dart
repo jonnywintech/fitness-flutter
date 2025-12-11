@@ -64,6 +64,7 @@ class _NavItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+      onTap: onTap,
       child: Container(
         width: 56,
         height: 56,
@@ -73,7 +74,6 @@ class _NavItem extends StatelessWidget {
         ),
         child: Icon(icon, color: isSelected ? DT.bgBlack : DT.bg, size: DT.s6),
       ),
-      onTap: onTap,
     );
   }
 }

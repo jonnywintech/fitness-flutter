@@ -1,3 +1,4 @@
+import 'package:fitness/features/home/presentation/home_page.dart';
 import 'package:fitness/shared/widgets/bottom_nav.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -16,9 +17,8 @@ GoRouter buildRouter() {
               GoRoute(
                 path: '/home',
                 name: AppRoute.home.name,
-                pageBuilder: (context, state) => const NoTransitionPage(
-                  child: Scaffold(body: Center(child: Text('Home'))),
-                ),
+                pageBuilder: (context, state) =>
+                    const NoTransitionPage(child: HomePage()),
               ),
             ],
           ),
